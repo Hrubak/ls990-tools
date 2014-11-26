@@ -61,7 +61,7 @@ set -e
 #cdb
 
 repopick -b 76738
-repopick -b 78864 79187 77856 79409 79410 79107
+repopick -b 78864 79187 77856 79409 79410 79107 79440
 
 ##### SUCCESS ####
 SUCCESS=true
