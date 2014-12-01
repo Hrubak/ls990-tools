@@ -59,9 +59,8 @@ set -e
 #http_patch https://dl.dropboxusercontent.com/u/13144052/CM11/hrubak/0001-SIGNAL-STRENGTH-MOD.patch
 #http_patch https://dl.dropboxusercontent.com/u/13144052/CM11/hrubak/0001-Make-the-signalbars-show-when-not-connected-or-conne.patch
 #cdb
-
-repopick -b 76738
-repopick -b 78864 79187 77856 79409 79410 79107 79440
+#79187 77856 
+repopick -b 78864
 
 ##### SUCCESS ####
 SUCCESS=true
