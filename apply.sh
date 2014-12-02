@@ -62,9 +62,15 @@ set -e
 #78864  sepolicy: add device specific-sepolicies
 #80056  init: cleanup and juggling act
 #79187  UiccController: Query GET_SIM_STATUS when radio state is ON
+#80167  media_profiles: audio and video bitrate must match on matching sizes
+#80168  props: disable hw aac encoder
+#79920  keylayout: remove deprecated wake flags
+#79630  media_profiles: fix 4k recording profile
+#80025  Settings: add "Show weather" toggle for status bar
 #79497  g3: selinux enforcing <--NOT YET!!!!
 
-repopick -b 80156 79965 79749 79764 79857 77856 79135 78864 80056 79187 #79497
+
+repopick -b 80156 79965 79749 79764 79857 77856 79135 78864 80056 79187 80167 80168 79920 79630 80025
 
 ##### SUCCESS ####
 SUCCESS=true
