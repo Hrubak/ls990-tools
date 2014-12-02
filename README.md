@@ -34,7 +34,7 @@ Auto Apply Patches
 This script will remove any topic branches named auto, then apply all patches under topic branch auto.
 
 ```
-lg990-tools/apply.sh
+ls990-tools/apply.sh
 ```
 Usage: 
 ```
@@ -49,5 +49,5 @@ cdb                                               #cd back to working_dir
 Build
 =====
 ```
-. build/envsetup.sh && brunch lg990
+. build/envsetup.sh && brunch ls990
 ```
