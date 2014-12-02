@@ -66,13 +66,11 @@ set -e
 #80168  props: disable hw aac encoder
 #79920  keylayout: remove deprecated wake flags
 #79630  media_profiles: fix 4k recording profile
-#80025  Settings: add "Show weather" toggle for status bar
-#80012  SystemUI: add Weather display to status bar header
-#-- MERGED -- 79975  vold: Fix uses of board flags -- MERGED --
+#80180  fstab: fix external sdcard location
 #79497  g3: selinux enforcing <--NOT YET!!!!
 
 
-repopick -b 80156 79965 79749 79764 79857 77856 79135 78864 80056 79187 80167 80168 79920 79630
+repopick -b 80156 79965 79749 79764 79857 77856 79135 78864 80056 79187 80167 80168 79920 79630 80180
 
 ##### SUCCESS ####
 SUCCESS=true
