@@ -68,7 +68,7 @@ set -e
 #77856  Telephony: Allow ruim to fetch in CDMA LTE mode
 #79187  UiccController: Query GET_SIM_STATUS when radio state is ON
 
-repopick -b 79965 79135 78864 80056 79920 79630 80229 80240 #79749 79764 79857 77856 79187
+repopick -b 79965 79135 78864 80056 79920 79630 80229 80240 79749 79764 79857 77856 79187
 
 ##### SUCCESS ####
 SUCCESS=true
