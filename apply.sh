@@ -67,9 +67,10 @@ set -e
 #79630  media_profiles: fix 4k recording profile
 #79497  g3: selinux enforcing <--NOT YET!!!!
 #80229  ls990: select correct nfc config
+#80240  ls990: use pn544 as NFC chipset and include lib
 
 
-repopick -b 79965 79749 79764 79857 77856 79135 78864 80056 79187 80167 80168 79920 79630 80229
+repopick -b 79965 79749 79764 79857 77856 79135 78864 80056 79187 80167 80168 79920 79630 80229 80240
 
 ##### SUCCESS ####
 SUCCESS=true
