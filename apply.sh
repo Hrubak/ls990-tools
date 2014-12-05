@@ -59,6 +59,7 @@ set -e
 #79920  keylayout: remove deprecated wake flags
 #79630  media_profiles: fix 4k recording profile
 #79497  g3: selinux enforcing <--NOT YET!!!!
+#80435  ls990: update thermal-engine
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
 #79764  Telephony: DcTracker: Fix CDMA APN Data issues.
@@ -68,9 +69,13 @@ set -e
 #80229  ls990: select correct nfc config
 #80240  ls990: use pn544 as NFC chipset and include lib
 #80338  ls990: Build the default pn54x HAL
+#80422  libnfc-nxp: Add alternate firmware path
+#80423  Stop "LLC length mis-match" log spam
+#80420  card emulation patch port to JB
+#80421  On some handsets, there is a configuration of hardware that causes a conflict with HCE.
 
+repopick -b 79965 79135 78864 80056 79920 79630 79749 79764 79857 77856 80229 80240 80338 80420 80421 80422 80423
 
-repopick -b 79965 79135 78864 80056 79920 79630 79749 79764 79857 77856 80229 80240 #80338
 
 ##### SUCCESS ####
 SUCCESS=true
