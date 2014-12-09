@@ -60,6 +60,7 @@ set -e
 #79630  media_profiles: fix 4k recording profile
 #79497  g3: selinux enforcing <--NOT YET!!!!
 #80435  ls990: update thermal-engine
+#81089  camerawrapper: chill out the logs
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
 #79764  Telephony: DcTracker: Fix CDMA APN Data issues.
@@ -70,7 +71,7 @@ set -e
 #80240  ls990: use pn544 as NFC chipset and include lib
 #80338  ls990: Build the default pn54x HAL
 
-repopick -b 79965 79135 78864 80056 79920 79630 79749 79764 79857 77856 #80229 80240 80338
+repopick -b 79965 79135 78864 80056 79920 79630 79749 79764 79857 77856 81089 #80229 80240 80338
 
 
 ##### SUCCESS ####
