@@ -70,10 +70,10 @@ set -e
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
-#80240  ls990: use pn544 as NFC chipset and include lib
+#81213  ls990: use pn544 as NFC chipset and include lib
 #80338  ls990: Build the default pn54x HAL
 
-repopick -b 79965 79135 78864 79920 79630 79749 79764 77856 81089 81087 81088 81079 80240 80338 80229
+repopick -b 79965 79135 78864 79920 79630 79749 79764 77856 81089 81087 81088 81079 81213 80338 80229
 
 
 ##### SUCCESS ####
