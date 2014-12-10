@@ -60,16 +60,20 @@ set -e
 #79497  g3: selinux enforcing <--NOT YET!!!!
 #80435  ls990: update thermal-engine
 #81089  camerawrapper: chill out the logs
+#81079  sec_config: update from lollipop release
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
 #79764  Telephony: DcTracker: Fix CDMA APN Data issues.
 #77856  Telephony: Allow ruim to fetch in CDMA LTE mode
-#NFC fixes
+#81087  LgeLteRIL: allow skipping of initial radio power off message
+#81088  LgeLteRIL: properly reset radio on RIL_CONNECTED
+
+#NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
 #80240  ls990: use pn544 as NFC chipset and include lib
 #80338  ls990: Build the default pn54x HAL
 
-repopick -b 79965 79135 78864 79920 79630 79749 79764 77856 81089 #80229 80240 80338
+repopick -b 79965 79135 78864 79920 79630 79749 79764 77856 81089 81087 81088 81079 #80229 80240 80338
 
 
 ##### SUCCESS ####
