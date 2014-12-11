@@ -72,7 +72,11 @@ set -e
 #80240  ls990: use pn544 as NFC chipset and include lib
 #81213  ls990: Build the default pn54x HAL
 
-repopick -b 79135 78864 79920 79630 79749 81089 81079 79764 77856 81087 81088 #80240 80229 81213
+#extras
+#81261  g3: build fm radio
+#81259  g3: death to all modules
+
+repopick -b 79135 78864 79920 79630 79749 81089 81079 79764 77856 81087 81088 81261 81259 #80240 80229 81213
 
 
 ##### SUCCESS ####
