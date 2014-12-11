@@ -52,13 +52,12 @@ set -e
 
 ################ Apply Patches Below ####################
 #device fixes
-#79965  ls990: bring up overlays
+
 #79135  g3-common: Change LCD density to 560dpi
 #78864  sepolicy: add device specific-sepolicies
 #79920  keylayout: remove deprecated wake flags
 #79630  media_profiles: fix 4k recording profile
 #79497  g3: selinux enforcing <--NOT YET!!!!
-#80435  ls990: update thermal-engine
 #81089  camerawrapper: chill out the logs
 #81079  sec_config: update from lollipop release
 #Ril Fixes
@@ -71,9 +70,9 @@ set -e
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
 #80240  ls990: use pn544 as NFC chipset and include lib
-#80338  ls990: Build the default pn54x HAL
+#81213  ls990: Build the default pn54x HAL
 
-repopick -b 79965 79135 78864 79920 79630 79749 79764 77856 81089 81087 81088 81079 80240 80229
+repopick -b 79135 78864 79920 79630 79749 79764 77856 81089 81087 81088 81079 80240 80229 81213
 
 
 ##### SUCCESS ####
