@@ -57,7 +57,7 @@ set -e
 #78864  sepolicy: add device specific-sepolicies
 #79920  keylayout: remove deprecated wake flags
 #79630  media_profiles: fix 4k recording profile
-#79497  g3: selinux enforcing <--NOT YET!!!!
+#79497  g3: selinux enforcing
 #81089  camerawrapper: chill out the logs
 #81079  sec_config: update from lollipop release
 #Ril Fixes
@@ -72,7 +72,7 @@ set -e
 #80240  ls990: use pn544 as NFC chipset and include lib
 #81213  ls990: Build the default pn54x HAL
 
-repopick -b 79135 78864 79920 79630 79749 79764 77856 81089 81087 81088 81079 79497 #80240 80229 81213
+repopick -b 79135 78864 79920 79630 79749 81089 81079 79764 77856 81087 81088 #80240 80229 81213
 
 
 ##### SUCCESS ####
