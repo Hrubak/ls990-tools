@@ -52,20 +52,16 @@ set -e
 
 ################ Apply Patches Below ####################
 #device fixes
-
 #79135  g3-common: Change LCD density to 560dpi
-#78864  sepolicy: add device specific-sepolicies
 #79920  keylayout: remove deprecated wake flags
 #79630  media_profiles: fix 4k recording profile
-#79497  g3: selinux enforcing
 #81089  camerawrapper: chill out the logs
-#81079  sec_config: update from lollipop release
+#81582  telephony: show apn settings
+
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
 #79764  Telephony: DcTracker: Fix CDMA APN Data issues.
 #77856  Telephony: Allow ruim to fetch in CDMA LTE mode
-#81087  LgeLteRIL: allow skipping of initial radio power off message
-#81088  LgeLteRIL: properly reset radio on RIL_CONNECTED
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
@@ -73,7 +69,7 @@ set -e
 
 
 
-repopick -b 79135 78864 79920 79630 79749 81089 81079 79764 77856 81087 81088 81261 80240 80229 81259 81260
+repopick -b 79135 79920 79630 81089 79749 79764 77856 80229 80240 81582
 
 
 ##### SUCCESS ####
