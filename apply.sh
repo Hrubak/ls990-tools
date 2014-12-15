@@ -61,7 +61,8 @@ set -e
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
 #79764  Telephony: DcTracker: Fix CDMA APN Data issues.
-#77856  Telephony: Allow ruim to fetch in CDMA LTE mode
+#81821  ls990: make GSM work
+
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
@@ -69,7 +70,7 @@ set -e
 
 
 
-repopick -b 79135 79920 79630 81089 79749 79764 77856 80229 80240 81582
+repopick -b 79135 79920 79630 81089 79749 79764 81821 80229 80240 81582
 
 
 ##### SUCCESS ####
