@@ -61,8 +61,8 @@ set -e
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
 #79764  Telephony: DcTracker: Fix CDMA APN Data issues.
-#81821  ls990: make GSM work
-
+#80684  Revert "Telephony: fix getIccOperatorNumeric"
+#80685  TeleService: Change the netType get interface
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
@@ -70,7 +70,7 @@ set -e
 
 
 
-repopick -b 79135 79920 79630 81089 79749 79764 81821 80229 80240 81582
+repopick -b 79135 79920 79630 81089 79749 79764 81582 80684 80685
 
 
 ##### SUCCESS ####
