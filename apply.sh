@@ -53,7 +53,6 @@ set -e
 ################ Apply Patches Below ####################
 #device fixes
 #79135  g3-common: Change LCD density to 560dpi
-#79920  keylayout: remove deprecated wake flags
 #79630  media_profiles: fix 4k recording profile
 #81089  camerawrapper: chill out the logs
 #81582  telephony: show apn settings
@@ -70,7 +69,7 @@ set -e
 
 
 
-repopick -b 79135 79920 79630 81089 79749 79764 81582 80684 80685
+repopick -b 79135 79630 81089 79749 79764 81582 80684 80685
 
 
 ##### SUCCESS ####
