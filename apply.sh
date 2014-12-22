@@ -58,7 +58,8 @@ set -e
 #81582  telephony: show apn settings
 #82679  ls990: add network mode settings
 #82672  audio: disable use.dedicated.device.for.voip
-
+#82710  ls990: clean up overlay
+#82711  ls990: enable svdo and get ismi from sim    
 
 #Ril Fixes
 #79749  DCTracker: HACK Fix eHRPD/LTE data connection
@@ -72,7 +73,7 @@ set -e
 
 
 
-repopick -b 79135 79630 81089 79749 79764 80684 80685 82679 82672
+repopick -b 79135 79630 81089 79749 79764 80684 80685 82679 82672 82710 82711
 
 
 ##### SUCCESS ####
