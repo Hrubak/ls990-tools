@@ -62,8 +62,6 @@ set -e
 #82711  ls990: enable svdo and get ismi from sim    
 
 #Ril Fixes
-#79749  DCTracker: HACK Fix eHRPD/LTE data connection
-#79764  Telephony: DcTracker: Fix CDMA APN Data issues.
 #80684  Revert "Telephony: fix getIccOperatorNumeric"
 #80685  TeleService: Change the netType get interface
 
@@ -73,7 +71,7 @@ set -e
 
 
 
-repopick -b 79135 79630 81089 81582 82672 82710 82711 79749 79764 80684 80685 82728 #82679
+repopick -b 79135 79630 81089 81582 82672 82710 82711 80684 80685 #82679
 
 
 ##### SUCCESS ####
