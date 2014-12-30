@@ -57,13 +57,16 @@ set -e
 #81089  camerawrapper: chill out the logs
 #81582  telephony: show apn settings
 #82679  ls990: add network mode settings
-#82672  audio: disable use.dedicated.device.for.voip
 #82710  ls990: clean up overlay
-#82711  ls990: enable svdo and get ismi from sim    
+#83211  ls990: get ismi from sim    
+#83106  audio: Use low latency as primary audio output
 
 #Ril Fixes
 #80684  Revert "Telephony: fix getIccOperatorNumeric"
 #80685  TeleService: Change the netType get interface
+#83210  g3: remove lolipop hack
+#83032  UiccController: use registerForAvailable only when persist.radio.apm_sim_not_pwdn is enabled
+
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
@@ -71,7 +74,7 @@ set -e
 
 
 
-repopick -b 79135 79630 81089 81582 82672 82710 82711 80684 80685 #82679
+repopick -b 79135 79630 81089 81582 82710 83211 80684 80685 83106 83210 83032 #82679
 
 
 ##### SUCCESS ####
