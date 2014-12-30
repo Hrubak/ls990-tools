@@ -65,7 +65,7 @@ set -e
 #80684  Revert "Telephony: fix getIccOperatorNumeric"
 #80685  TeleService: Change the netType get interface
 #83210  g3: remove lolipop hack
-#83032  UiccController: use registerForAvailable only when persist.radio.apm_sim_not_pwdn is enabled
+
 
 
 #NFC fixes <-disabled for now
@@ -74,7 +74,7 @@ set -e
 
 
 
-repopick -b 79135 79630 81089 81582 82710 83211 80684 80685 83106 83210 83032 #82679
+repopick -b 79135 79630 81089 81582 82710 83211 80684 80685 83106 83210 #82679
 
 
 ##### SUCCESS ####
