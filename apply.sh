@@ -55,18 +55,17 @@ set -e
 #79135  g3-common: Change LCD density to 560dpi
 #79630  media_profiles: fix 4k recording profile
 #81089  camerawrapper: chill out the logs
-#81582  telephony: show apn settings
 #82679  ls990: add network mode settings
 #82710  ls990: clean up overlay
-#83211  ls990: get ismi from sim    
 #83106  audio: Use low latency as primary audio output
 
 #Ril Fixes
 #80684  Revert "Telephony: fix getIccOperatorNumeric"
 #80685  TeleService: Change the netType get interface
 #83210  g3: remove lolipop hack
-
-
+#83211  ls990: get ismi from sim  
+#81582  telephony: show apn settings
+#83255  g3: enable persist.radio.apm_sim_not_pwdn
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
@@ -74,7 +73,7 @@ set -e
 
 
 
-repopick -b 79135 79630 81089 81582 82710 83211 80684 80685 83106 83210 #82679
+repopick -b 79135 79630 81089 81582 82710 83211 80684 80685 83106 83210 83255 #82679
 
 
 ##### SUCCESS ####
