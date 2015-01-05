@@ -57,15 +57,14 @@ set -e
 #81089  camerawrapper: chill out the logs
 #82679  ls990: add network mode settings
 #82710  ls990: clean up overlay
-#83106  audio: Use low latency as primary audio output
+#83803  camerawrapper: wholesale kang from g2
+#83787  init: disable lg screen sharpening
+#83786  g3: enable userspace sharpening control
 
 #Ril Fixes
-#80684  Revert "Telephony: fix getIccOperatorNumeric"
-#80685  TeleService: Change the netType get interface
 #83210  g3: remove lolipop hack
 #83211  ls990: get ismi from sim  
 #81582  telephony: show apn settings
-#83255  g3: enable persist.radio.apm_sim_not_pwdn
 
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
@@ -73,7 +72,7 @@ set -e
 
 
 
-repopick -b 79135 79630 81089 81582 82710 83211 80684 80685 83106 83210 83255 #82679
+repopick -b 79135 79630 81089 81582 82710 83211 83210 83803 83787 83786 #82679
 
 
 ##### SUCCESS ####
