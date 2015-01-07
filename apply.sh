@@ -53,10 +53,8 @@ set -e
 ################ Apply Patches Below ####################
 #device fixes
 #79630  media_profiles: fix 4k recording profile
-#81089  camerawrapper: chill out the logs
 #82679  ls990: add network mode settings
 #82710  ls990: clean up overlay
-#84143  KEYS: close race between key lookup and freeing
 
 #Ril Fixes
 #83210  g3: remove lolipop hack
@@ -67,7 +65,7 @@ set -e
 #80229  ls990: select correct nfc config
 #80240  ls990: use pn544 as NFC chipset and include lib
 
-repopick -b 79630 81582 82710 83211 83210 80229 80240 84143 #82679
+repopick -b 79630 81582 82710 83211 83210
 
 ##### SUCCESS ####
 SUCCESS=true
