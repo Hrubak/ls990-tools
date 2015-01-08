@@ -65,7 +65,7 @@ set -e
 #80229  ls990: select correct nfc config
 #80240  ls990: use pn544 as NFC chipset and include lib
 
-repopick -b 79630 81582 82710 83211 83210 84385 84389
+repopick -b 79630 81582 82710 83211 83210 84385 84389 84363
 
 ##### SUCCESS ####
 SUCCESS=true
