@@ -52,7 +52,6 @@ set -e
 
 ################ Apply Patches Below ####################
 #device fixes
-#79630  media_profiles: fix 4k recording profile
 #82679  ls990: add network mode settings
 #82710  ls990: clean up overlay
 
@@ -64,8 +63,8 @@ set -e
 #NFC fixes <-disabled for now
 #80229  ls990: select correct nfc config
 #80240  ls990: use pn544 as NFC chipset and include lib
-
-repopick -b 79630 81582 82710 83211 83210 84385 84389 83315 81468 84561 85051 85052 84832 84833
+ 
+repopick -b 81582 82710 83211 83210 83315 84561 85051 85052 84832 84833 83417 83418 85450 81185
 
 ##### SUCCESS ####
 SUCCESS=true
