@@ -51,20 +51,9 @@ set -e
 . build/envsetup.sh
 
 ################ Apply Patches Below ####################
-#device fixes
-#82679  ls990: add network mode settings
-#82710  ls990: clean up overlay
 
-#Ril Fixes
-#83210  g3: remove lolipop hack
-#83211  ls990: get ismi from sim  
-#81582  telephony: show apn settings
-
-#NFC fixes <-disabled for now
-#80229  ls990: select correct nfc config
-#80240  ls990: use pn544 as NFC chipset and include lib
  
-repopick -b 79630 81582 82710 83211 83210 83315 84561 84832 84833
+repopick -b 79630 81582 83211 83210 83315 84561 84832 84833
 
 ##### SUCCESS ####
 SUCCESS=true
