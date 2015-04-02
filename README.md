@@ -4,7 +4,7 @@ http://wiki.cyanogenmod.org/w/Build_for_ls990
 ```
 mkdir -p android/CM12
 cd android/CM12
-repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
+repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
 ```
 
 Modify your `.repo/local_manifest/roomservice.xml` as follows:
@@ -12,7 +12,7 @@ Modify your `.repo/local_manifest/roomservice.xml` as follows:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
-    <project name="Hrubak/ls990-tools.git" path="ls990-tools" remote="github" revision="cm-12.0" />
+    <project name="Hrubak/ls990-tools.git" path="ls990-tools" remote="github" revision="cm-12.1" />
     <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
     <!-- common -->
     <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
