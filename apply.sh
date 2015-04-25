@@ -53,7 +53,7 @@ set -e
 ################ Apply Patches Below ####################
 
  #
-repopick -b 92961 92966
+repopick -b 92961 92966 96188
 
 ##### SUCCESS ####
 SUCCESS=true
